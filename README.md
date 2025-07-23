@@ -1,17 +1,32 @@
-# EEG Schizophrenia Detection by Susovan Patra
+EEG-Based Schizophrenia Classification by Susovan Patra
+This repository presents the source code for a machine learning project aimed at detecting schizophrenia using EEG recordings. The primary objective is to process EEG signals and build a model capable of identifying schizophrenia based on the available subject data.
+🔍 Key Module
 
-This repository contains the code for a project on Schizophrenia Detection using EEG data. The goal is to analyze EEG data and develop a model for detecting schizophrenia based on the provided datasets.
+Note: The core algorithms, preprocessing routines, and analytical logic reside in the util module. For in-depth understanding of the processing pipeline, refer to the utility script, as it encapsulates the essential transformations and helper functions.
 
-**Import Note:** The majority of the logic, preprocessing, and analysis are implemented in the `util` module. Refer to the `util` module for detailed functions and processing steps.
 
-## Data
-Code in this repository assumes that all data is locally downloaded and unzipped into a `dataset` folder. The `dataset` folder should include directories for each of the 81 subjects' data.
+📁 Dataset Overview
+The implementation expects all EEG data to be downloaded locally and placed within a root directory named dataset. Each of the 81 subjects should have their data stored in separate subdirectories within this folder.
 
-- [EEG Schizophrenia Detection Dataset Part 1](https://www.kaggle.com/datasets/broach/button-tone-sz/data)
-- [EEG Schizophrenia Detection Dataset Part 2](https://www.kaggle.com/datasets/broach/buttontonesz2)
 
-*Note: No raw data or output files are included in this repository due to size constraints.*
+EEG Schizophrenia Dataset – Segment 1
 
-## **Project Result:**
-In the domain of traditional models, the Light Gradient Boosting Machine (LGBM) proved to be a robust classifier, surpassing others in this project with a ROC AUC of **95.96%** and an accuracy of **90%**.
 
+EEG Schizophrenia Dataset – Segment 2
+
+
+
+Disclaimer: Due to limitations on file size, neither raw EEG data nor generated output files are included within this repository.
+
+
+📊 Model Performance
+Among the traditional classifiers tested, the Light Gradient Boosting Machine (LGBM) demonstrated superior performance. It achieved:
+
+
+ROC AUC Score: 95.96%
+
+
+Accuracy: 90%
+
+
+This establishes LGBM as the most effective model in this study for distinguishing between schizophrenic and healthy EEG patterns.
