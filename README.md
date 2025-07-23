@@ -14,8 +14,8 @@ This repository contains the implementation of a machine learning pipeline for d
 
 The codebase assumes that all required EEG data has been manually downloaded and extracted into a local directory named `dataset`. Inside this folder, there should be individual subfolders for each of the **81 subjects**.
 
-- **EEG Schizophrenia Dataset – Part 1**
-- **EEG Schizophrenia Dataset – Part 2**
+- [**EEG Schizophrenia Dataset – Part 1**](https://www.kaggle.com/datasets/broach/button-tone-sz)
+- [**EEG Schizophrenia Dataset – Part 2**](https://www.kaggle.com/datasets/broach/buttontonesz2)
 
 > **Important:** Due to repository size constraints, this project does **not** include raw EEG data or any model output files.
 
@@ -28,6 +28,6 @@ After evaluating several traditional classifiers, the **Light Gradient Boosting 
 - **ROC AUC Score:** 95.96%
 - **Accuracy:** 90.00%
 
-These results demonstrate the effectiveness of LGBM in distinguishing schizophrenia-related patterns in EEG data.
+These results demonstrate the effectiveness of LGBM in distinguishing schizophrenia‑related patterns in EEG data.
 
 ---
