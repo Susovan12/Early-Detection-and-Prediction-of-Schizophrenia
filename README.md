@@ -21,7 +21,7 @@ The codebase assumes that all required EEG data has been manually downloaded and
 
 ---
 
-## 📊 Project Results
+## 📊 Project Results...Thats it
 
 After evaluating several traditional classifiers, the **Light Gradient Boosting Machine (LGBM)** emerged as the top-performing model, outperforming other candidates with the following metrics:
 
